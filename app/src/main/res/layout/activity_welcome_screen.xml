@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.krystal.memoir.AViewFlipper
+        android:id="@+id/welcomeVF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/WelcomeScreenIV0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f0" />
+        
+        <ImageView
+            android:id="@+id/WelcomeScreenIV1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f1" />
+
+        <ImageView
+            android:id="@+id/WelcomeScreenIV2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f2" />
+
+        <ImageView
+            android:id="@+id/WelcomeScreenIV3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f3" />
+
+        <ImageView
+            android:id="@+id/WelcomeScreenIV4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f4" />
+
+        <ImageView
+            android:id="@+id/WelcomeScreenIV5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/f5" />
+
+        <FrameLayout
+            android:id="@+id/WelcomeScreenFL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/WelcomeScreenIV6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/f6" />
+
+            <ImageView
+                android:id="@+id/WelcomeScreenB"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical|right"
+                android:src="@drawable/start" />
+        </FrameLayout>
+    </com.krystal.memoir.AViewFlipper>
+
+    <ImageView
+        android:id="@+id/WelcomeScreenSwipeRight"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dp"
+        android:padding="15dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        android:src="@drawable/swipeleft" />
+
+    <ImageView
+        android:id="@+id/WelcomeScreenSwipeLeft"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="10dp"
+        android:padding="15dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        android:src="@drawable/swiperight" />
+
+</FrameLayout>

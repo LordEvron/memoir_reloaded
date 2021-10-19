@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memoir</string>
+    <string name="action_import_video">Import Video</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_shoot_video">Shoot Video</string>
+    <string name="menu_settings">About</string>
+    <string name="welcome_text">Memoir application creates a short movie with two second video clips shot each day of your life. You can then view the movie to recall some of best moments of your life!</string>
+    <string name="start_movie">Get Started</string>
+    <string name="title_section1">Shoot video</string>
+    <string name="title_section2">My Life</string>
+    <string name="title_section3">Settings</string>
+    <string name="contextual_menu_select">Select</string>
+    <string name="contextual_menu_delete">Delete</string>
+    <string name="startDateLabel">Start Date:</string>
+    <string name="endDateLabel">End Date:</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_screen_version">Version 1.0 Copyrights reserved</string>
+    <string name="activity_help">Help</string>
+    <string name="help_mt1">About</string>
+    <string name="help_t1">Memoir application creates a short movie with video clips shot each day of your life. You can either manually click a video of a memorable event in the day or the application can do it for you. You can then view the movie to recall some of your best moments summarized in a few minutes!</string>
+    <string name="help_mt2">Take a tour</string>
+    <string name="help_mt3">Change Start/End date</string>
+    <string name="help_t3">1. Go to Settings.
+\n2. Select “Set Start Date” or “Set End Date”.
+\n3. Your movie is updated to show videos within selected dates.</string>
+    <string name="help_mt4">Take videos</string>
+    <string name="help_t4">1. Click Camera icon.
+\n2. Hold the camera in Landscape mode and press record button.
+\n3. The camera automatically stops recording after selected seconds.
+\n4. You can select or cancel the current video.
+\n5.On selecting, the video is added to list of videos.</string>
+    <string name="help_mt5">Select/Delete videos</string>
+    <string name="help_t5">1. Selected video for the day is highlighted in blue in the list of videos. 
+By default, the last video taken for the day is selected.
+\n2. Touch and hold video for options Select/Delete.
+\n3. If a selected video is deleted, the first video of the day is marked selected.</string>
+    <string name="help_mt6">Share videos</string>
+    <string name="help_t6">1. Click on Share icon to view list of available sharing options.
+\n2. Your movie is exported as MyLife.mp4.</string>
+    <string name="help_mt7">Import videos</string>
+    <string name="help_t7">1. Select Import Video option from menu. 
+\n2.Choose video from gallery.
+\n3.Only landscape videos in .mp4 format shot with highest camera resolution can be imported.
+\n4.Video edit screen is displayed for the selected video.
+\n5.Move the blue marker over the video strip at the bottom to choose specific portion of the video.
+\n6.Play button will play the selected portion.
+\n7.You can now select or cancel the clip to import in list of videos.
+\n8.The video will be added to list on the date when the original video was taken.</string>
+    <string name="help_mt8">Getting started</string>
+    <string name="help_t8">1. Take videos each day by clicking on Camera icon. The videos are displayed in a list for each date. 
+\n2. You can take multiple videos in a day but only one video per day is selected for your movie. 
+\n3. Press and hold the video thumbnail to select/delete from videos for a day.
+\n4. You can view the complete movie by clicking the play button above list of videos.
+\n5. Each time a video is taken/selected/deleted or start/end dates are changed, the movie is updated with the new selections.
+\n6. Share your movie by clicking the “(share image)” button.</string>
+    
+    <string name="eula">END USER LICENSE FOR ANDROID MEMOIR APPLICATION SOFTWARE.
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE USING THIS SOFTWARE. THIS LICENSE PROVIDES IMPORTANT INFORMATION CONCERNING THE SOFTWARE, PROVIDES YOU WITH A LICENSE TO USE THE SOFTWARE AND CONTAINS WARRANTY AND LIABILITY INFORMATION.
+BY USING THE SOFTWARE, YOU ARE ACCEPTING THE SOFTWARE "AS IS" AND AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE AGREEMENT.
+IN NO ENVENT WILL THE AUTHORS BE HELD LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
+IF YOU DO NOT WISH TO DO SO, DO NOT USE THE SOFTWARE.
+\n\n
+1. Terms of License\n
+This license allows you to:
+(a) use the Software on a single device; and
+If you wish to use the Software on more than one device, you must license another copy of the
+Software.
+\n
+2. Restrictions on Use\n
+Unless Aalap Shah (Owner) has authorized you to distribute the Software, you shall not make or distribute copies of the Software or transfer the Software from one device to another. You shall not decompile, reverse engineer, disassemble, include in other software, or translate the Software, or use the Software for any commercial purposes. You shall not modify, alter, change or otherwise make any modification to the Software or create derivative works based upon the Software. You shall not rent, lease, resell, sub-license, assign, distribute or otherwise transfer the Software or this license.
+\n
+3. Ownership\n
+This license provides you with limited rights to use the Software. The Owner retains all ownership, right, title and interest in, to and of the Software and all copies of it. All rights not specifically granted in this license, including domestic and international copyrights, are reserved by the Owner.
+\n
+4. Proprietary Markings\n
+The Owner\'s logos, product names, manuals, documentation, and other support materials are either patented, copyrighted, trademarked, constitute valuable trade secrets (whether or not any portion of them may be copyrighted or patented) or are otherwise proprietary to the Owner. You shall not remove or obscure the Owner\'s copyright, trade mark or other proprietary notices from any of the materials contained in this package or downloaded together with the Software.
+\n
+5. Disclaimer of Warranties and Technical Support\n
+The Software is provided to you after paying a licence and on an "AS IS" basis, without any technical support or warranty of any kind including, without limitation, any warranty or condition of merchantability, fitness for a particular purpose and non-infringement.
+\n\n
+SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. YOU MAY ALSO HAVE OTHER LEGAL RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION.</string>
+</resources>

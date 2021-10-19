@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/select_button" android:title="@string/contextual_menu_select">
+    </item>
+    <item
+        android:id="@+id/delete_button" android:title="@string/contextual_menu_delete">
+    </item>
+</menu>

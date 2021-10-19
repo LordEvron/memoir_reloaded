@@ -1,0 +1,8 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashIV"
+    android:scaleType="fitXY"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Splash" >
+</ImageView>

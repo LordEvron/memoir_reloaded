@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MyLifeListItemLL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/MyLifeListItemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+    <View style="@style/Divider" />
+
+    <HorizontalScrollView
+        android:id="@+id/MyLifeListItemHSV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/MyLifeListItemInnerLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+        
+    </HorizontalScrollView>
+
+</LinearLayout>
